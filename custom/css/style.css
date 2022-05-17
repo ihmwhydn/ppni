@@ -1,0 +1,67 @@
+.navbar.navbar-light .breadcrumb .nav-item.active>.nav-link,
+.navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.navbar-theme {
+  background: #40AE87;
+}
+
+.container, .container-fluid, .nav-body, .navbar, .navbar-expand-lg, .navbar-nav, .nav-item, .nav-link {
+  transition: all ease-in-out 1s;
+}
+
+.line-txt {
+  line-height: 24px;
+}
+
+.mt-custom {
+  margin-top: 150px;
+}
+
+.bg-merah-redup {
+  background: #40AE87;
+}
+
+.swiper-pagination {
+  position: static;
+}
+
+.swiper-pagination-bullet-active {
+  background: red;
+}
+
+.btn-radius-custom {
+  border-radius: 8.125rem;
+}
+
+.card-radius-custom {
+  border-radius: 1.125rem;
+}
+
+.bg-abu {
+  background: rgb(241, 241, 241);
+}
+
+.mySwiper2 .swiper-slide {
+  transform: scale(0.8);
+  opacity: 0.5;
+  transition: all ease-in-out 1s;
+}
+
+.mySwiper2 .swiper-slide.swiper-slide-next {
+  transform: scale(1);
+  opacity: 1;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
