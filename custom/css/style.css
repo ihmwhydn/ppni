@@ -19,13 +19,6 @@
   transition: all ease-in-out .5s;
 }
 
-#gambar-slider {
-  background-image: url('../img/ners.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-}
-
 .container, .container-fluid, .nav-body, .navbar, .navbar-expand-lg, .navbar-nav, .nav-item, .nav-link {
   transition: all ease-in-out .5s;
 }
@@ -39,7 +32,7 @@
 }
 
 .pt-custom {
-  padding-top: 250px;
+  padding-top: 100px;
   padding-bottom: 50px;
   height: 100vh;
   overflow-y: hidden;
@@ -70,14 +63,32 @@
 }
 
 .mySwiper2 .swiper-slide {
-  transform: scale(0.8);
-  opacity: 0.5;
+  transform: scale(1);
+  opacity: 1;
   transition: all ease-in-out .5s;
 }
 
 .mySwiper2 .swiper-slide.swiper-slide-next {
   transform: scale(1);
   opacity: 1;
+}
+
+@media (min-width: 768px) {
+
+  .pt-custom {
+    padding-top: 200px;
+  }
+
+  .mySwiper2 .swiper-slide {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  
+  .mySwiper2 .swiper-slide.swiper-slide-next {
+    transform: scale(1);
+    opacity: 1;
+  }
+
 }
 
 @media (min-width: 1400px) {
