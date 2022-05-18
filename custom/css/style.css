@@ -11,10 +11,23 @@
 
 .navbar-theme {
   background: #40AE87;
+  transition: all ease-in-out .5s;
+}
+
+.navbar-transparant {
+  background: transparent;
+  transition: all ease-in-out .5s;
+}
+
+#gambar-slider {
+  background-image: url('../img/ners.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
 }
 
 .container, .container-fluid, .nav-body, .navbar, .navbar-expand-lg, .navbar-nav, .nav-item, .nav-link {
-  transition: all ease-in-out 1s;
+  transition: all ease-in-out .5s;
 }
 
 .line-txt {
@@ -23,6 +36,13 @@
 
 .mt-custom {
   margin-top: 150px;
+}
+
+.pt-custom {
+  padding-top: 250px;
+  padding-bottom: 50px;
+  height: 100vh;
+  overflow-y: hidden;
 }
 
 .bg-merah-redup {
@@ -52,7 +72,7 @@
 .mySwiper2 .swiper-slide {
   transform: scale(0.8);
   opacity: 0.5;
-  transition: all ease-in-out 1s;
+  transition: all ease-in-out .5s;
 }
 
 .mySwiper2 .swiper-slide.swiper-slide-next {
