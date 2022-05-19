@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  new WOW().init();
+  AOS.init();
 
   var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
