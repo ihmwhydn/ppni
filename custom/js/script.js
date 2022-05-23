@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-  AOS.init();
-
   var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     speed: 1000,
