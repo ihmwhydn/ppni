@@ -25,15 +25,15 @@
 .border-cstm {
   border-style: solid;
   border-width: 2px;
-  border-color: white;
+  border-color: rgb(255, 255, 255);
+  background: white;
+  color: rgb(59, 59, 59)!important;
 }
 
 .border-cstm:hover {
   border-style: solid;
   border-width: 2px;
-  border-color: white;
-  background: white;
-  color: black!important;
+  background: rgb(231, 231, 231);
 }
 
 .form-control {
