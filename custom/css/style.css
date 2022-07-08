@@ -14,8 +14,13 @@ html body {
 }
 
 .navbar-theme {
-  background: #40AE87;
+  background: #9b202a;
   transition: all ease-in-out .5s;
+}
+
+.btn-base {
+  background: #9b202a;
+  color: white;
 }
 
 .about-us {
